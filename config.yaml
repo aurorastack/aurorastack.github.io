@@ -57,7 +57,7 @@ menus:
       weight: 5
 
   buttons:
-    - name: "Sign Up"
+    - name: "Start Free Trial"
       url: "/register"
       weight: 5
       pre: "btn btn-primary text-light"

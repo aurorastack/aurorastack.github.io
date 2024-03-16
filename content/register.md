@@ -78,20 +78,20 @@ button[disabled]{
 
 <form id="register" >
   <div class="container">
-    <h1>Sign Up</h1>
-    <p>Please fill in this form to create an account.</p>
+    <h1>Start your free trial</h1>
+    <p>No credit card needed.</p>
     <hr>
 
     <label for="email"><b>Email</b></label>
-    <input type="text" id="email" placeholder="Enter Email" name="email" required>
+    <input type="text" id="email" placeholder="tom@example.com" name="email" required>
 
     <label for="name"><b>Name</b></label>
-    <input type="text" id="org_name" placeholder="Enter Name" name="org_name" required>
+    <input type="text" id="org_name" placeholder="Tom Smith" name="org_name" required>
 
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <p>By signing up, I agree to the AuroraStack <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>.</p>
 
     <div class="clearfix">
-      <button type="submit" id="clk" value="Submit" class="signupbtn">Submit</button>
+      <button type="submit" id="clk" value="Submit" class="signupbtn">Continue</button>
     </div>
   </div>
 </form>
