@@ -1,0 +1,4 @@
+{{ define "main" }}
+  {{ with .Site.Data.home.hero }}{{ partial "sections/hero.html" . }}{{ end }}
+  {{ with .Site.Data.home.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }}
+{{ end }}

@@ -1,0 +1,11 @@
+enabled: true
+id: "testimonials"
+
+content:
+  title: "The Future of IT Opereation starts here"
+
+  featured:
+    image: "images/testimonials-awards.png"
+    text: "Our company uses an AWS cloud, but we lack experts and management was really complicated and difficult. But with AuroraStack's Generative AI agents taking over the work of human experts, everything becomes much easier."
+    client: "Korea Education ICT Network"
+

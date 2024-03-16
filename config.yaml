@@ -1,0 +1,88 @@
+baseURL: "https://www.aurorastack.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "AuroraStack"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "AuroraStack"
+  description: "Don't let complex cloud management overwhelm you! Meet our Generative AI agents, your helping hand in the cloud."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "images/aurorastack_icon.jpeg"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    github: "https://github.com/aurorastack"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "Seocho-gu Seoul, Korea 06544"
+
+  contact:
+    - "contact@aurorastack.com"
+
+  copyright: "© 2024 AuroraStack All Rights Reserved"
+
+menus:
+  main:
+    - name: "Product"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How it Works"
+      url: "/#"
+      weight: 2
+
+    - name: "Open Source"
+      url: "/#"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Company"
+      url: "/about"
+      weight: 5
+
+  buttons:
+    - name: "Sign Up"
+      url: "/register"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Product"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How it Works"
+      url: "/#"
+      weight: 2
+
+    - name: "Open Source"
+      url: "/#"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Company"
+      url: "/company"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
