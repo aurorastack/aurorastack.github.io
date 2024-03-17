@@ -6,20 +6,20 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
-Hugo makes use of a variety of open source projects including:
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Browser compatibility
+<p>The code is tested on the newest versions of Chrome, Firefox, Chrome mobile and Firefox mobile in april 2021. This code uses fairly new techniques, like scroll snapping. However, I expect this solution to degrade quite graceful. It even looks and works 'okay-ish' without javascript.</p>
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+<h2>About the author</h2>
+<p>I am a <a href="https://www.usecue.com/">website performance expert</a> and for <a href="https://www.usecue.com/portfolio/poet-vermaat/">a project</a> I was looking for a <a href="https://www.usecue.com/blog/carousel-with-scroll-snap/">touch enabled carousel</a>. I could not find one that was minimal, so I created a basic responsive and touch-enabled carousel that weighs only 3kb (uncompressed and including CSS). This carousel is based on modern web technology and will not slow down (the rendering of) your page... and yes, that <a href="https://petervermaat.nl/">project link</a> is a link to a production website.</p>
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+<h2>Credits</h2>
+<p>The approach is (partly) based on the 2019 scroll snap carousel from <a href="https://nolanlawson.com">Nolan Lawson</a>. The debounce function is written by <a href="https://gomakethings.com">Chris Ferdinandi</a>. The cat images are borrowed from <a href="https://www.pexels.com/">Pexels</a>.</p>
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+<h2>License</h2>
+<p>WTFPL - This is a GPL-compatible permissive license most commonly used as a free software license. As a public domain like license, the WTFPL is essentially the same as dedication to the public domain. It allows redistribution and modification of the work under any terms. The title is an abbreviation of "Do What The Fuck You Want To Public License".</p>
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+<p><br />Enjoy the code!<br /><br /><a href="https://www.usecue.com/">Joost van der Schee</a></p>
+
+<br /><br /><br /><br />

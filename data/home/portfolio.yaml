@@ -1,0 +1,23 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/cloudforet.png"
+    pretitle: "Cloud Management Platform"
+    title: "We contribute Cloudforet"
+    text: "Cloudforet is a series of Linux Foundation Open-Source Projects.
+Cloudforet is a multi & hybrid cloud management platform which enables seamless control and optimization of resources across diverse cloud environments. Through unified monitoring, automation, and security measures, this platform streamlines complex cloud operations."
+
+    buttons: 
+      - label: "Read more"
+        url: "https://cloudforet.io"
+
+  - image: "images/cloudops_story2.png"
+    pretitle: "Generative CloudOps Agent"
+    title: "Working with our Heroes"
+    text: "A generative CloudOps Agent refers to an artificial intelligence (AI) persona designed to automate and enhance cloud operations tasks. It leverages Large Language Model(LLM) techniques to not only manage existing infrastructure but also proactively communicate with people and other agents."
+
+    buttons: 
+      - label: "Read more"
+        url: "#"
+
