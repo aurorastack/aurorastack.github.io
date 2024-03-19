@@ -2,7 +2,7 @@
   <div class="container">
     {{ range .content }}
     <div class="row portfolio-feature">
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+      <div class="col-12 col-xl-6 d-flex flex-column align-items-center">
         {{ with .image }}
           {{ partial "utilities/image-fluid.html" . }}
         {{ end }}

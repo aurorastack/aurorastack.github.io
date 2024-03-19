@@ -37,7 +37,7 @@ params:
 menus:
   main:
     - name: "Product"
-      url: "/#hero"
+      url: "/#"
       weight: 1
 
     - name: "How it Works"
@@ -45,11 +45,11 @@ menus:
       weight: 2
 
     - name: "Open Source"
-      url: "/#"
+      url: "/open-source"
       weight: 3
 
     - name: "Pricing"
-      url: "/#"
+      url: "/pricing"
       weight: 4
 
     - name: "Company"
