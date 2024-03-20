@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="section blog-single py-5">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-12 d-flex justify-content-center">
+          <a href="https://www.linuxfoundation.org/projects" target="_blank">
+            <img src="../images/cloudforet_lf.png"/ alt="LinuxFoundation">
+          </a>
+       </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="blog-content fs-5">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-12 d-flex justify-content-center">
+          <a href="https://github.com/cloudforet-io/" target="_blank">
+            <img src="../images/wonny_friends.png" alt="Wonny and Friends"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
