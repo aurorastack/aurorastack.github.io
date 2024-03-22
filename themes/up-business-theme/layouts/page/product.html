@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <section class="section blog-single py-5">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-12 d-flex justify-content-center display-3 fw-bolder">
+         #1. Cloud Management Platform
+       </div>
+      </div>
+    </div>
+   </section>
+ {{ with .Site.Data.product.cloudforet }}{{ partial "sections/portfolio.html" . }}{{ end }}
+
+  <section class="section blog-single py-5">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-12 d-flex justify-content-center display-3 fw-bolder">
+         #2. Generative CloudOps Agent
+       </div>
+      </div>
+    </div>
+   </section>
+ {{ with .Site.Data.product.cloudops }}{{ partial "sections/portfolio.html" . }}{{ end }}
+
+{{ end }}

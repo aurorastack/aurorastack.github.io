@@ -1,0 +1,15 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/asset_monitoring.png"
+    title: "Asset & Monitoring"
+    text: "The asset and monitoring functionality in cloud management platforms offers users comprehensive oversight and control over their digital resources, including virtual machines, databases, and storage. It enables effective tracking, management, and optimization of these assets. The real-time monitoring component provides visibility into performance, health, and utilization, empowering users to proactively address issues. By combining asset management and monitoring, organizations can enhance operational efficiency, ensure resource availability, and optimize cloud environments for performance and cost-effectiveness."
+
+  - image: "images/alert_notification.png"
+    title: "Alert & Notification"
+    text: "The alert and notification feature is crucial for proactive monitoring and quick response to critical events. It allows users to set up customized alerts based on predefined thresholds or conditions related to resource usage, performance metrics, security incidents, or operational issues. When triggered, alerts prompt the platform to send notifications through various channels such as email, SMS, or in-platform messages, informing users about detected issues in real-time. This feature empowers users to swiftly address potential problems, optimize resource allocation, and enhance system reliability in their cloud infrastructure."
+
+  - image: "images/billing.png"
+    title: "Consolidated Billing"
+    text: "The consolidated billing feature streamlines financial management by aggregating and presenting billing information from various cloud services and providers into a single, unified interface. This functionality allows users to efficiently track and manage their cloud expenditure, facilitating better cost control, budget allocation, and financial forecasting. By consolidating billing data across multiple accounts or services, organizations can gain insights into their overall cloud spending, identify cost-saving opportunities, and optimize resource utilization. Additionally, consolidated billing simplifies administrative tasks by reducing the complexity of managing multiple invoices and payment processes, ultimately enhancing financial transparency and accountability within the cloud environment."
