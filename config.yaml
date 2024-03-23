@@ -44,16 +44,16 @@ menus:
       url: "/#"
       weight: 20
 
-    - name: "Open Source"
-      url: "/open-source"
+    - name: "Resources"
+      url: "/resources"
       weight: 30
 
-    - name: "Pricing"
-      url: "/pricing"
+    - name: "Open Source"
+      url: "/open-source"
       weight: 40
 
     - name: "Company"
-      url: "/about"
+      url: "/#"
       weight: 50
 
   buttons:

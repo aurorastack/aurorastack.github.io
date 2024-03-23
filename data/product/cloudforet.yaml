@@ -1,10 +1,14 @@
 enabled: true
 id: "portfolio"
 
+title:
+  name: "#1 Cloud Management Platform"
+  url: "#"
+
 content:
   - image: "images/asset_monitoring.png"
     title: "Asset & Monitoring"
-    text: "The asset and monitoring functionality in cloud management platforms offers users comprehensive oversight and control over their digital resources, including virtual machines, databases, and storage. It enables effective tracking, management, and optimization of these assets. The real-time monitoring component provides visibility into performance, health, and utilization, empowering users to proactively address issues. By combining asset management and monitoring, organizations can enhance operational efficiency, ensure resource availability, and optimize cloud environments for performance and cost-effectiveness."
+    text: "The asset and monitoring functionality in cloud management platform offers users comprehensive oversight and control over their digital resources, including virtual machines, databases, and storage. It enables effective tracking, management, and optimization of these assets. The real-time monitoring component provides visibility into performance, health, and utilization, empowering users to proactively address issues. By combining asset management and monitoring, organizations can enhance operational efficiency, ensure resource availability, and optimize cloud environments for performance and cost-effectiveness."
 
   - image: "images/alert_notification.png"
     title: "Alert & Notification"

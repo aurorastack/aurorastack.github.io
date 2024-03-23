@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description = "Text about this post"
+description = "Text about this resources"
 date: {{ .Date }}
 images = []
 audio = []

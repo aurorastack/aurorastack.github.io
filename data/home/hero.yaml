@@ -2,14 +2,14 @@ enabled: true
 id: "hero"
 
 content:
-  title: "How to **level up** Your CloudOps"
+  title: "Cloud Operation by **Generative Agents**"
   text: "Don't let complex cloud management overwhelm you! Meet our Generative AI agents, your helping hand in the cloud."
 
   buttonPrimary:
-    label: "Live Demo"
+    label: "Cloud Operation"
     url: "https://demo.aurorastack.io"
 
   buttonSecondary:
-    label: "YouTube"
-    url: "https://www.youtube.com/@cloudforet"
+    label: "Generative Agents"
+    url: "/blog"
 

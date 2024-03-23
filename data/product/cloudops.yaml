@@ -1,6 +1,10 @@
 enabled: true
 id: "portfolio"
 
+title:
+  name: "#2 Generative CloudOps Agent"
+  url: "#"
+
 content:
   - image: "images/memory_retrieve.png"
     title: "Step 1. Memory & Retrieve"
