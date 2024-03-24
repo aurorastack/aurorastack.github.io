@@ -1,7 +1,7 @@
 # CSS Issues 
 
 그림이 중앙에 들어가지 않으며
-justify-content-center -> align-items-center
+"d-flex justify-content-center align-content-center" 로 변경
 
 # 새로운 page를 추가하고 싶을 때
 

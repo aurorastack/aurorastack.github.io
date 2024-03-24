@@ -41,7 +41,7 @@ menus:
       weight: 10
 
     - name: "How it Works"
-      url: "/#"
+      url: "/how-it-works"
       weight: 20
 
     - name: "Resources"
@@ -53,7 +53,7 @@ menus:
       weight: 40
 
     - name: "Company"
-      url: "/#"
+      url: "/about"
       weight: 50
 
   buttons:
