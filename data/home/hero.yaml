@@ -6,7 +6,7 @@ content:
   text: "Don't let complex cloud management overwhelm you! Meet our Generative AI agents, your helping hand in the cloud."
 
   buttonPrimary:
-    label: "Cloud Operation"
+    label: "Cloud Management Platform"
     url: "https://demo.aurorastack.io"
 
   buttonSecondary:

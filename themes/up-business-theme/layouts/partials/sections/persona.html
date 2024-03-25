@@ -1,0 +1,57 @@
+<section class="section portfolio">
+
+  {{ with .title }}
+  <div class="container">
+    <section class="section blog-single py-5">
+    <div class="container">
+      <div class="row pb-5">
+        {{ with .name }}
+        <div class="col-12 d-flex justify-content-center display-3 fw-bolder">
+          {{ . }}
+       </div>
+        {{ end }}
+      </div>
+      <div class="row pb-5">
+        {{ with .url }}
+        <div class="col-12 d-flex justify-content-center display-3 fw-bolder">
+           <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="{{ . }}" target="_blank">Start Free Trial<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+       </div>
+        {{ end }}
+      </div>
+    </div>
+    </section>
+  {{ end }}
+
+    <div></div>
+
+    {{ range .content }}
+    <div class="row">
+      <div class="col-12 col-xl-6 d-flex flex-column align-items-center">
+        {{ with .image }}
+          {{ partial "utilities/image-fluid.html" . }}
+        {{ end }}
+      </div>
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+        {{ with .title }}
+          <p class="text-danger fw-semibold mb-2">{{ . }}</p>
+        {{ end }}
+        {{ with .name }}
+          <h3 class="fs-1 fw-bold text-primary pb-3">{{ . }}</h3>
+        {{ end }}
+        {{ with .persona }}
+          <p class="text-black-61 pb-3"><h4>Persona:</h4><br>{{ . | markdownify }}</p>
+        {{ end }}
+         {{ with .capabilities }}
+        <p class="text-black-61 pb-3"><h4>Capabilities:</h4><br>{{ . | markdownify }}</p>
+        {{ end }}
+        <div class="">
+          {{ range .badges }}
+            <img src="{{ .url }}" width=100 class="img-fluid"></img>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    {{ end }}
+  </div>
+</section>
