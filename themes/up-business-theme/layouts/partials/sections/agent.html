@@ -32,7 +32,7 @@
           <h3 class="fs-1 fw-normal text-primary pb-3">{{ . }}</h3>
         {{ end }}
         {{ with .text }}
-          <p class="text-black-61 pb-3">{{ . }}</p>
+          <p class="text-black-61 pb-3">{{ . | markdownify }}</p>
         {{ end }}
         <div class="">
           {{ range .buttons }}

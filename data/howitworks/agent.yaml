@@ -2,17 +2,12 @@ enabled: true
 id: "portfolio"
 
 title:
-  name: "Generative Agent Behavior and Interaction"
+  name: "CloudOps Agent"
 
 content:
-  - image: "images/memory_retrieve.png"
-    title: "Step 1. Memory & Retrieve"
-    text: "The Memory & Retrieve stage involves the process of storing and recalling relevant information essential for efficient decision-making and task execution. During this phase, the agent utilizes its memory to retain key data points, configurations, past actions, and user preferences related to cloud operations. Subsequently, when prompted to perform a task or respond to a query, the agent retrieves pertinent information from its memory banks, enabling it to provide contextually relevant and accurate recommendations or actions. This iterative cycle of memory storage and retrieval enhances the agent's ability to learn from past experiences, adapt to evolving scenarios, and effectively assist users in managing their cloud resources."
-
-  - image: "images/reflect.png"
-    title: "Step 2. Reflect"
-    text: "The Reflect stage involves the critical process of analyzing past experiences, outcomes, and interactions to refine its decision-making and improve future performance. During this phase, the agent evaluates the effectiveness of its actions, identifies patterns, trends, and potential areas for optimization within the cloud environment. Through introspection and analysis, the agent gains insights into its own performance, as well as broader trends and challenges in cloud management. These insights inform the agent's ongoing learning and adaptation, enabling it to continually enhance its capabilities, strategies, and responses to better serve user needs and achieve desired outcomes in cloud operations."
-
-  - image: "images/plan_reacting.png"
-    title: "Step 3. Plan & Reacting"
-    text: " The Plan & React stage encompasses strategic planning and dynamic response mechanisms to effectively address evolving circumstances within the cloud environment. During this phase, the agent formulates proactive plans based on analysis of current and anticipated conditions, considering factors such as resource usage patterns, performance metrics, and user preferences. It also establishes reactive measures to swiftly respond to unforeseen events, anomalies, or changing user requirements. By continuously evaluating and adjusting its strategies in real-time, the agent optimizes resource allocation, ensures system stability, and enhances user satisfaction. This iterative process of planning and reacting enables the AI agent to efficiently manage cloud resources, mitigate risks, and deliver seamless operational performance."
+  - image: "images/how-it-works/agent_concept.png"
+    title: "Concept"
+    text: "While the basic operation of an LLM is to generate an appropriate output for the user's input prompt, the Agent is designed to perform complex and sophisticated thinking tasks. The Agent can execute detailed **planning** and **reasoning** to **accomplish** intricate goals.
+    
+    
+     The Agent thinks by considering the given tools and the current situation in order to perform the Task. This means that the **Agent plans and executes** for the given task. After that, the Agent prepares the necessary next action."
