@@ -1,3 +1,4 @@
 {{ define "main" }}
  {{ with .Site.Data.howitworks.agent }}{{ partial "sections/agent.html" . }}{{ end }}
+ {{ with .Site.Data.howitworks.architecture }}{{ partial "sections/agent_architecture.html" . }}{{ end }}
 {{ end }}

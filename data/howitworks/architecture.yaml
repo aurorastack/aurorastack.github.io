@@ -1,0 +1,23 @@
+enabled: true
+id: "portfolio"
+
+content:
+  title: "Agent Architecture"
+  summary: "Agents receive inputs from the environment through **various types of sensors(Short-term memory)**, and use this information in **conjunction with internal knowledge(Long-term memory)** and models to determine their next actions. These actions have an impact on the environment, generating new inputs or altering the state of the environment. Agents employ various learning algorithms, inference techniques, and decision-making strategies to **determine optimal actions** in a given environment to achieve their goals"
+  image: "images/how-it-works/agent_architecture.png"
+  description: "### Planning
+  
+* **sub-goal and decomposition**: Agents have the ability to divide tasks given to them into smaller sub-tasks or handle complex tasks efficiently.
+
+* **Reflection and Refinement**: Agents can engage in self-criticism and self-reflection about previously performed actions, and through this, they can plan an improved direction when performing the next action.
+
+### Memory
+
+* **Short-term memory**: It is used to remember information related to the task the agent is currently working on.
+
+* **Long-term memory**: t supports agents to recall memories of past tasks. This allows the Agent's memory to be infinitely expanded by utilizing Vector storage.
+
+### Tools
+
+* We provide various methods for the Agent to perform actions that enable interaction with the outside world."
+

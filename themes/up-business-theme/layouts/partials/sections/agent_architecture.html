@@ -1,0 +1,35 @@
+<section class="section portfolio">
+  {{ with .content }}
+  <div class="container">
+    <section class="section blog-single py-5">
+      <div class="row pb-5"><hr></div>
+      <div class="row pb-5">
+        {{ with .title }}
+        <div class="col-12 d-flex justify-content-left display-6 fw-bold">
+          {{ . }}
+        </div>
+        {{ end }}
+      </div>
+      <div class="row pb-5">
+        {{ with .summary }}
+        <div class="col-12">
+          {{ . | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+      <div class="row pb-5">
+        {{ with .image }}
+          {{ partial "utilities/image-fluid.html" . }}
+        {{ end }}
+      </div>
+      <div class="row pb-5">
+        {{ with .description }}
+        <div class="col-12">
+          {{ . | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+  </div>
+  {{ end }}
+</section>

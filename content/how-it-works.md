@@ -6,5 +6,3 @@ aliases = ["how-it-works", "technology", "contact"]
 author = "Hugo Authors"
 layout = "how-it-works"
 +++
-
-abcd
