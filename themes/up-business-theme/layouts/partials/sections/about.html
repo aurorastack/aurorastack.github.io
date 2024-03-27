@@ -1,0 +1,11 @@
+<section class="section portfolio">
+  {{ with .content }}
+  <div class="container">
+    <section class="section blog-single d-flex justify-content-center">
+      <div class="row col-8">
+        {{ . | markdownify }}
+      </div>
+    </section>
+    </div>
+    {{ end }}
+</section>
