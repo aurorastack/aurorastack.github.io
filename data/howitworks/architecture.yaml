@@ -15,7 +15,7 @@ content:
 
 * **Short-term memory**: It is used to remember information related to the task the agent is currently working on.
 
-* **Long-term memory**: t supports agents to recall memories of past tasks. This allows the Agent's memory to be infinitely expanded by utilizing Vector storage.
+* **Long-term memory**: It supports agents to recall memories of past tasks. This allows the Agent's memory to be infinitely expanded by utilizing Vector storage.
 
 ### Tools
 
