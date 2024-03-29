@@ -2,6 +2,7 @@
 date = "2024-03-16"
 aliases = ["sign-up", "register"]
 author = "Hugo Authors"
+layout = "register"
 +++
 
 {{< rawhtml >}}
