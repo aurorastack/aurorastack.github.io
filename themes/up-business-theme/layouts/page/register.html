@@ -47,7 +47,7 @@
               <label class="form-check-label" for="exampleCheck1">By signing up, I agree to the AuroraStack Privacy Policy and Terms of Service.</label>
              </div>
             <div class="justify-content-center d-flex mb-2">
-              <button type="submit" id="clk_1" class="btn btn-primary btn-block">Try for Free</button>
+              <button type="submit" id="clk_1" class="btn btn-primary btn-block" disabled>Try for Free</button>
             </div>
           </form>
           </div>
@@ -135,6 +135,13 @@ async function postFormDataAsJson({ url, formData }) {
 }
 const sendForm = document.querySelector("#register_1");
 sendForm.addEventListener("submit", handleFormSubmit);
+
+const agreeCheckbox = document.querySelector("#check_1");
+agreeCheckbox.addEventListener("change", (event) => {
+    const submitButton = document.querySelector("#clk_1");
+    submitButton.disabled = !event.currentTarget.checked;
+});
+
 </script>
 
 {{ end }}
