@@ -103,10 +103,11 @@ async function handleFormSubmit(event) {
 	event.preventDefault();
 	const form = event.currentTarget;
 
-	const url = "http://register.aurorastack.io/registration/v1/user/create";
+	const url = "http://demo.aurorastack.io/registration/v1/user/create";
 
 	try {
 		const formData = new FormData(form);
+		console.log({ formData });
 		const responseData = await postFormDataAsJson({ url, formData });
         document.getElementById("clk").disabled = false;
 		console.log({ responseData });

@@ -37,11 +37,12 @@
               <small id="emailHelp" class="form-text text-muted">We will send email for reset password.</small>
             </div>
             <br>
-
+<!--
             <div class="justify-content-center d-flex">
             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
             <div class="g-recaptcha" data-sitekey="6LcEyqgpAAAAAKTBSt2fV-9-VNlsHOxNT8Viq58z"></div>
             </div><br>
+            -->
              <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" id="check_1" />
               <label class="form-check-label" for="exampleCheck1">By signing up, I agree to the AuroraStack Privacy Policy and Terms of Service.</label>
@@ -96,10 +97,12 @@ async function handleFormSubmit(event) {
 	event.preventDefault();
 	const form = event.currentTarget;
 
-	const url = "https://register.aurorastack.io/registration/v1/user/create";
+	const url = "http://demo.aurorastack.io/registration/v1/user/create";
 
 	try {
 		const formData = new FormData(form);
+        formData.append("email", document.getElementById("InputEmail1").value);
+        formData.append("org_name", "My Project Group");
 		const responseData = await postFormDataAsJson({ url, formData });
         document.getElementById("clk_1").disabled = false;
 		console.log({ responseData });
@@ -113,7 +116,9 @@ async function postFormDataAsJson({ url, formData }) {
 	const plainFormData = Object.fromEntries(formData.entries());
 	const formDataJsonString = JSON.stringify(plainFormData);
 
+    console.log("DATA")
     console.log(formDataJsonString)
+    console.log("DATA2")
 	const fetchOptions = {
 		method: "POST",
 
