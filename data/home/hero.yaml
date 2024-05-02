@@ -7,7 +7,7 @@ content:
 
   buttonPrimary:
     label: "Cloud Management Platform"
-    url: "https://demo.ucloud.or.kr"
+    url: "https://demo.aurorastack.io"
 
   buttonSecondary:
     label: "Generative Agents"
