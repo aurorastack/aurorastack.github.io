@@ -102,7 +102,7 @@ async function handleFormSubmit(event) {
 	try {
 		const formData = new FormData(form);
         formData.append("email", document.getElementById("InputEmail1").value);
-        formData.append("org_name", "My Project Group");
+        formData.append("org_name", "My Org " + Math.random().toString(36).substring(2,11));
 		const responseData = await postFormDataAsJson({ url, formData });
         document.getElementById("clk_1").disabled = false;
 		console.log({ responseData });
